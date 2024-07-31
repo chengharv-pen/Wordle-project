@@ -152,7 +152,7 @@ function winCheck(word, wordCount, index) {
                 if (word === winningWord) {
                     alert('You won!');
                 } else {
-                    alert('You lost!');
+                    alert('You lost! The word of the day was: ' + winningWord);
                 }
                 wordCount.count = 0;
             }
