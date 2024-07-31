@@ -2,7 +2,7 @@ const letters = document.querySelectorAll('.letter');
 const getAPI = "https://words.dev-apis.com/word-of-the-day";
 const postAPI = "https://words.dev-apis.com/validate-word";
 let wordCount = { count: 0 };
-let lastActiveElement = null;
+let lastActiveElement = letters[0];
 
 // Select the first input box on load
 document.querySelector('.game-board input').focus();
