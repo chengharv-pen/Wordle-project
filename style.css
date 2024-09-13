@@ -46,9 +46,6 @@ p {
 
 .reset-button {
     position: relative;
-    left: 20px;
-    right: 20px;
-    bottom: 10px;
     height: 50px;
     border-color: #DFB992;
     border-radius: 20px;
